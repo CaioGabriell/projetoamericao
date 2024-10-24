@@ -4,7 +4,7 @@ const port = 3000;
 
 // Primeira Rota
 app.get('/primeira', (req, res) => {
-  res.send('<h1>Bem-vindo à Primeira Rota</h1>');
+  res.send('<h1>Primeira Rota</h1>');
 });
 
 // Segunda rota
